@@ -315,7 +315,7 @@ calcularDiasMes(mes);*/
 // numero=ingresarNumMax(maximo);
 // let arrayNumero=[];
 
-// var reArray;
+
 // function crearArray(numero){    let arrayAuxliar=[];
     
 
