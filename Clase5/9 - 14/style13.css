@@ -1,0 +1,11 @@
+.cuadros
+{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin-left: 35%;
+    flex-direction: column;
+    
+    justify-self: center;   
+}

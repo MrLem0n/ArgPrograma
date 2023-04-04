@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 9</title>
+  <link rel="stylesheet" href="style13.css">
+</head>
+<body>
+    <!--input type="button" id="dolares" onclick="pasajeAPesos()" value="Ingrese valor en dolares"-->
+    <h1>CLASE 5 - EJERCICIO 13 </h1>
+  <p1>A través de un formulario, el usuario debe introducir un número secreto que estará
+    entre 0 y 5.
+    El usuario tendrá tres intentos para acertar el número, si no lo logra, habrá perdido el
+    juego</p1><br><br>
+
+    <div class="cuadros"  > 
+        <input placeholder="Ingrese numero entre 0 y 5" type="text" id="numeroIngresado" ><br>
+        <button onclick="juegoUnoCinco()">JUGAR</button><br>
+        <input placeholder="Estado del juego" type="text" id="resultado">  <br>
+        <input type="text" id="intentos" placeholder="Intentos utilizados"><br>
+        <input type="text" id="secreto" placeholder="Numero secreto">
+    </div>
+
+    <p id="secreto"></p>
+    
+    <script src = "ejercicio13.js"></script> 
+</body>
+</html>
