@@ -1,0 +1,76 @@
+body{
+    background-image: url(bg-palm.jpg);
+    background-size: cover;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+p{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 200px 10px 200px;
+    border: 5px;
+    border-radius: 100px;
+    margin: 15px;
+    padding-inline-start: 20px;
+}
+
+p:hover{
+    background-color: rgb(231, 224, 224);
+}
+
+a {
+    font-family: sans-serif;
+    font-size: medium;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.la-check-circle {
+    justify-content: flex-start;
+    align-content: flex-start;
+    color: rgb(33, 175, 33);
+    font-size: x-large;
+    margin-right: 150px;    
+ }
+
+.la-facebook-f {
+    margin: 15px;
+    font-size: 40px;
+}
+
+.la-facebook-f:hover {
+    color: blue;
+}
+
+.la-linkedin-in {
+    margin: 15px;
+    font-size: 40px;
+    align-items: center;
+}
+    
+.la-linkedin-in:hover {
+    color: rgb(37, 37, 196);
+} 
+
+.la-twitter{
+    margin: 15px;
+    font-size: 40px;
+}  
+
+.la-twitter:hover {
+    color: rgb(7, 214, 214);
+}
+
+ul{
+    display: flexbox;
+    padding: 0px;
+} 
+    
