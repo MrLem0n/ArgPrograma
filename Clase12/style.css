@@ -1,0 +1,44 @@
+
+
+.img-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 200px;
+    z-index: 1;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 80px 
+}
+
+
+.container{
+    width: 100vw;
+    height:50vh;
+}
+.wpp{
+    width: 7vw;
+    height: 10vh;
+}
+
+.mail{
+    width: 11vw;
+    height: 9vh;
+}
+
+body{
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 5em; 
+    background-image: url(../img/fondo.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.btn-secondary{
+    margin-left: 2px;
+}
